@@ -1,4 +1,4 @@
-
+'use client';
 
 import { getPalette, usePalette } from "react-palette";
 import fds from "./fds.jpg";
