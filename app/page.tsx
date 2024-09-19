@@ -43,9 +43,10 @@ export default function Home() {
               handleImageUpload(e.target.files)
             }
           }}  className="form-control form-control-lg" id="formFileLg" type="file"></input>
+          <img src={imageFile || ""} alt="" style={{width: '300px', marginTop: '20px'}}/>
         </div>
   
-  
+          
         <div className="d-flex flex-row gap-5 justify-content-center justify-content-md-center flex-wrap">
           
             <div className="p-2">
